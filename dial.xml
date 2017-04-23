@@ -7,24 +7,22 @@
     >
 
 <TextView
-    android:text="メニュー"
+    android:text="電話番号を入力してください"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:gravity="center"
+/>
+
+<EditText
+	android:id="@+id/EditText01"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
 />
 
 <Button
-	android:text="電話をかける"
+	android:text="  O K  "
+	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
-	android:layout_width="fill_parent"
-    android:onClick="onClick_TelButton"
-/>
-
-<Button
-	android:text="終了"
-	android:layout_height="wrap_content"
-	android:layout_width="fill_parent"
-    android:onClick="onClick_ExitButton"
+	android:onClick="onClick_OkButton"
 />
 
 </LinearLayout>
