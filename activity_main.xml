@@ -18,13 +18,17 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello Milbon" />
+        android:text="分け目診断" />
 
     <Button
         android:id="@+id/buttonA"
-        android:layout_margin="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="260dp"
+        android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="80dp"
+        android:text="診断スタート" />
 
 </LinearLayout>
