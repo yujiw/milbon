@@ -1,5 +1,5 @@
 // package名は作成したプロジェクト名で変わります
-package com.example.testbutton;
+package com.example.milbon;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -28,12 +28,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // flagがtrueの時
                 if (flag) {
-                    textView.setText("Hello");
+                    textView.setText("Hello Milbon");
                     flag = false;
                 }
                 // flagがfalseの時
                 else {
-                    textView.setText("World");
+                    textView.setText("goodby Milbon");
                     flag = true;
                 }
             }
