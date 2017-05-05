@@ -18,16 +18,24 @@
 		android:id="@+id/textViewA"
 		android:textSize="30sp"
 		android:textColor="#ff00ff"
-		android:layout_marginTop="50dp"
+		android:layout_marginTop="40dp"
 		android:gravity="center"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:text="分け目診断" />
 
+	<ImageView
+		android:src="@drawable/toubu_1"
+		android:scaleType="fitCenter"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="55dp"
+		android:layout_width="300dp"
+		android:layout_height="300dp" />
+
 	<Button
 		android:text="診断スタート"
 		android:textSize="20sp"
-		android:layout_marginTop="340dp"
+		android:layout_marginTop="40dp"
 		android:layout_marginBottom="20dp"
 		android:layout_marginLeft="50dp"
 		android:layout_marginRight="50dp"
@@ -44,7 +52,7 @@
 
 		<Button
 			android:text="設定"
-			android:layout_marginTop="35dp"
+			android:layout_marginTop="20dp"
 			android:layout_height="55dp"
 			android:layout_width="200dp"
 			android:layout_marginLeft="6dp"
@@ -52,7 +60,7 @@
 			/>
 		<Button
 			android:text="お客様リスト"
-			android:layout_marginTop="35dp"
+			android:layout_marginTop="20dp"
 			android:layout_height="55dp"
 			android:layout_width="200dp"
 			android:onClick="onClick_ExitButton"
